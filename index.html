@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+    user-scalable=0'>
+    <title>Grand Point</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+   
+    <link href="assets/public/css/iq-min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="fixed-top">
+        <!--for fixed add class: fixed-->
+        <div class="container h-100 full-container pl-lg-2 pl-md-0">
+            <div class="row  h-100  justify-content-lg-center">
+                <div class="pl-0  col-4 d-lg-none d-block">
+                    <a href="javascript:;" class="mobile-icon side-panel-trigger">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </div>
+                <div class="pl-0 col-lg-3 col-4 h-100 text-lg-left text-md-center">
+                    <a href="/index.html" class="w-100  logo d-block">
+                        <img src="assets/img/logo.png" />
+                    </a>
+                </div>
+                <div class="col-lg-7 col-4 h-100 d-flex justify-content-end pr-0">
+                    <nav>
+                        <ul>
+                            <li class=" menu-item  d-lg-inline-flex d-none uppercase">
+                                <a href="/about.html">ABOUT</a>
+                            </li>
+                            <li class=" menu-item  d-lg-inline-flex d-none  uppercase">
+                                <a href="javascript:;">INVENTORY</a>
+                            </li>
+                            <li class=" menu-item  d-lg-inline-flex d-none  uppercase">
+                                <a href="/services.html">SERVICES</a>
+                            </li>
+                            <li class=" menu-item  d-lg-inline-flex d-none uppercase">
+                                <a href="/contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="header-right">
+                        <li>
+                            <a href="javascript:;"><i class="fas fa-phone-alt"></i></a>
+                        </li>
+                        <li class="d-lg-inline-flex d-none">
+                            <a href="javascript:;"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="search d-lg-inline-flex d-none">
+                            <a href="javascript:;"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" id="ada-button" data-uw-trigger="true"><i
+                                class="fas fa-child"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container full-container position-relative overflow-hidden mr-0 pr-0">
+            <div class="header-bottom">
+                <div class="weather-icon">
+                    <i class="far fa-sun"></i>
+                </div>
+                <div class="weather-status">
+                    73°F
+                </div>
+                <div class="weather-place d-lg-inline-block d-none">
+                    <i class="fas fa-map-marker-alt"></i> 48312
+                </div>
+            </div>
+        </div>
+    </header>
+  
+    <section id="main-slider" class="m-0 p-0 parallax">
+        <div class="swiper-container main-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="mains-item zoom">
+                        <div class="mains-img" style="background-image: url(assets/img/slider-img.png);">
+                        </div>
+                        <div class="slider-text">
+                            <h1 class="uppercase" data-animate="fadeIn">
+                                YAMAHA BOATS
+                            </h1>
+                            <a href="javascript:;" class="uppercase" data-animate="fadeIn">
+                                VIEW INVENTORY
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="mains-item zoom">
+                        <div class="mains-img" style="background-image: url(assets/img/slider-img.png);">
+                        </div>
+                        <div class="slider-text">
+                            <h1 class="uppercase" data-animate="fadeIn">
+                                YAMAHA BOATS
+                            </h1>
+                            <a href="javascript:;" class="uppercase" data-animate="fadeIn">
+                                VIEW INVENTORY
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="arrow">
+                <div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <a href="javascript:;" class="uppercase button button-green button-center mobile-link d-lg-none d-inline-block">
+            SearCh Inventory
+        </a>
+    </section>
+    <main class="content-wrap">
+        <div class="default-block">
+            <div class="container c-960">
+                <section id="inventory-search" class="m-0 p-0 text-center d-lg-block d-none">
+                    <h1 class="col-12 text-center">
+                        Start Inventory Search
+                    </h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Status
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Make
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Model
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Class
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <a href="javascript:;" class="uppercase button button-green button-center">
+                            SearCh Inventory
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <section id="default-about" class="bg-1 center-text m-0 pt-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="text-head m-0">
+                            <h2 class="uppercase">
+                                CELEBRATING OVER 50 YEARS!
+                            </h2>
+                            <h1 class="uppercase has-arrow">
+                                GRAND POINTE MARINA
+                            </h1>
+                            <p class="small-text">
+                                In business for over 48 years, Grand Pointe Marina of Lansing is a landmark in the
+                                marine
+                                industry. Proud to be one of the top 100 dealers in North America, representing the best
+                                names
+                                in boating, Grady White, Yamaha Boats, Monterey Boats and Manitou, Misty Harbor and Sun
+                                Tracker Pontoons are the premium brands we offer.
+                            </p>
+                        </div>
+                        <a href="javascript:;" class="button button-solid button-center">
+                            ABOUT US <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="our-brands" class="center-text m-0">
+                <div class="container">
+                    <div class="text-head">
+                        <h2 class="uppercase">
+                            DISCOVER
+                        </h2>
+                        <h1 class="uppercase has-arrow">
+                            OUR BRANDS
+                        </h1>
+                    </div>
+                    <div class="mobile-slider">
+                        <div class="mobile-wrapper">
+                            <div class="brand-1 brand-item mobile-item">
+                                <a href="javascript:;">
+                                    <div class="brand-bg"><img src="assets/img/brand-1.png" /></div>
+                                    <div class="brand-logo">
+                                        <img src="assets/img/brand-logo-1.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="brand-2 brand-item mobile-item">
+                                <a href="javascript:;">
+                                    <div class="brand-bg"><img src="assets/img/brand-2.png" /></div>
+                                    <div class="brand-logo">
+                                        <img src="assets/img/brand-logo-2.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="brand-3 brand-item mobile-item">
+                                <a href="javascript:;">
+                                    <div class="brand-bg"><img src="assets/img/brand-3.png" /></div>
+                                    <div class="brand-logo">
+                                        <img src="assets/img/brand-logo-3.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="brand-3 brand-item mobile-item">
+                                <a href="javascript:;">
+                                    <div class="brand-bg"><img src="assets/img/brand-4.png" /></div>
+                                    <div class="brand-logo">
+                                        <img src="assets/img/brand-logo-4.png" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="brand-3 brand-item mobile-item ">
+                                <a href="javascript:;">
+                                    <div class="brand-bg"><img src="assets/img/brand-5.png" /></div>
+                                    <div class="brand-logo">
+                                        <img src="assets/img/brand-logo-5.png" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mobile-pagination swiper-pagination d-lg-none d-block"></div>
+                    </div>
+                    <a href="javascript:;" class="button button-solid button-center">
+                        VIEW ALL <i class="fas fa-long-arrow-alt-right"></i>
+                    </a>
+
+                </div>
+            </section>
+            <section id="latest-inventory" class="bg-1 m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="text-head">
+                                <h2 class="uppercase">
+                                    BOATS FOR SALE
+                                </h2>
+                                <h1 class="uppercase has-arrow">
+                                    OUR LATEST INVENTORY
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 pr-0 mr-0">
+                            <div class="li-text-block">
+                                <div class="li-text-item">
+                                    <div class="li-number green">
+                                        216
+                                    </div>
+                                    <div class="li-text">
+                                        NEW BOATS
+                                    </div>
+                                </div>
+                                <div class="li-text-item">
+                                    <div class="li-number">
+                                        23
+                                    </div>
+                                    <div class="li-text">
+                                        USED BOATS
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 li-slider swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide li-slider-item">
+                                    <div class="li-slider-img" style="background-image: url(assets/img/sale-e.png);">
+                                    </div>
+                                    <div class="li-content">
+                                        <h3>
+                                            2018 RANGER
+                                        </h3>
+                                        <h4>
+                                            REATA 223C
+                                        </h4>
+                                        <div class="li-stock">
+                                            STOCK #: 2111
+                                        </div>
+                                        <div class="li-price">
+                                            $34,999
+                                        </div>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            SEE DETAIL <i class="fas fa-long-arrow-alt-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrow">
+                                <div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="our-services" class="m-0 full-container">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <div class="our-services-img" style="background-image: url(assets/img/services-img.png);">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-lg-0 mt-md-5 mt-5">
+                            <div class="text-head m-0">
+                                <h2 class="uppercase green">
+                                    OUR SERVICES
+                                </h2>
+                                <h1 class="uppercase has-arrow">
+                                    Grand Pointe Marina<br>
+                                    is here to help
+                                </h1>
+                                <p>Whether you’re a DIY kind of boater who only needs light maintenance or are looking
+                                    for a
+                                    full concierge level of service, Grand Pointe Marina is here to help. If your boat
+                                    breaks down or needs a routine maintenance visit, our ‘in on Monday – out on Friday’
+                                    guarantee means you won’t miss a weekend of boating.</p>
+                            </div>
+                            <ul class="our-services-list">
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Inside Storage
+                                    </a>
+                                </li>
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Winterization
+                                    </a>
+                                </li>
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Maintenance
+                                    </a>
+                                </li>
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Detailing
+                                    </a>
+                                </li>
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Spring Prep
+                                    </a>
+                                </li>
+                                <li class="uppercase">
+                                    <a href="javascript:;">
+                                        <i class="fas fa-caret-right"></i> Spring Delivery
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="javascript:;" class="uppercase button button-green mt-2">
+                                Schedule Service
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container c-960 d-lg-block d-none">
+                <section id="inventory-search-content" class="m-0 p-0 text-center">
+                    <h1 class="col-12 text-center">
+                        Start Inventory Search
+                    </h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Status
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Make
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Model
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>
+                                Class
+                            </label>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </div>
+                        <a href="javascript:;" class="uppercase button button-green button-center">
+                            SearCh Inventory
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <section id="contact-us" class="m-0">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-md-12 col-12">
+                            <div class="contact-us-img" style="background-image: url(assets/img/map.png);">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12  mt-lg-0 mt-md-5 mt-5">
+                            <div class="text-head m-0">
+                                <h2 class="uppercase">
+                                    CONTACT US
+                                </h2>
+                                <h1 class="uppercase has-arrow">
+                                    OUR LOCATIONS
+                                </h1>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+
+                                    <div class="contact-title">
+                                        STERLING HEIGHTS, MI
+                                    </div>
+                                    <div class="contact-phone number">
+                                        (586) 331-3155
+                                    </div>
+                                    <div class="contact-address">
+                                        33631 Van Dyke Ave.,<br>
+                                        Sterling Heights,MI 48312
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-address-ext">
+                                        Lake St. Claire / Harrison Township
+                                    </div>
+                                    <div class="contact-title">
+                                        STERLING HEIGHTS, MI
+                                    </div>
+                                    <div class="contact-phone number">
+                                        (586) 331-3155
+                                    </div>
+                                    <div class="contact-address">
+                                        33631 Van Dyke Ave.,<br>
+                                        Sterling Heights,MI 48312
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-address-ext">
+                                        Lake St. Claire / Harrison Township
+                                    </div>
+                                    <div class="contact-title">
+                                        STERLING HEIGHTS, MI
+                                    </div>
+                                    <div class="contact-phone number">
+                                        (586) 331-3155
+                                    </div>
+                                    <div class="contact-address">
+                                        33631 Van Dyke Ave.,<br>
+                                        Sterling Heights,MI 48312
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section id="default-news" class="center-text mb-0 pb-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="text-head white-title">
+                            <h1 class="uppercase has-arrow">
+                                OUR LATEST NEWS
+                            </h1>
+                        </div>
+                        <div class="swiper-container news-slider">
+                            <div class="swiper-wrapper">
+                                <div class="default-news-item swiper-slide">
+                                    <div class="default-news-img"
+                                        style="background-image: url(assets/img/latest-news-e.png);">
+                                        <div class="default-news-date">
+                                            Jan 15, 2020
+                                        </div>
+                                    </div>
+                                    <div class="default-news-text-block">
+                                        <h3 class="uppercase">
+                                            Lorem ipsum dolor sıt
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            READ MORE
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="default-news-item swiper-slide">
+                                    <div class="default-news-img"
+                                        style="background-image: url(assets/img/latest-news-e.png);">
+                                        <div class="default-news-date">
+                                            Jan 15, 2020
+                                        </div>
+                                    </div>
+                                    <div class="default-news-text-block">
+                                        <h3 class="uppercase">
+                                            Lorem ipsum dolor sıt
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            READ MORE
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="default-news-item swiper-slide">
+                                    <div class="default-news-img"
+                                        style="background-image: url(assets/img/latest-news-e.png);">
+                                        <div class="default-news-date">
+                                            Jan 15, 2020
+                                        </div>
+                                    </div>
+                                    <div class="default-news-text-block">
+                                        <h3 class="uppercase">
+                                            Lorem ipsum dolor sıt
+                                        </h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <a href="javascript:;" class="button button-solid uppercase button-link">
+                                            READ MORE
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination d-lg-none d-block"></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;" class="button button-solid button-center white-bg">
+                    VIEW ALL <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </section>
+            <section id="testimonials" class="center-text mt-0 mb-0">
+                <div class="container">
+                    <div class="text-head m-0">
+                        <h2 class="uppercase">
+                            TESTIMONIALS
+                        </h2>
+                        <h1 class="uppercase has-arrow">
+                            OUR CUSTOMERS SAYS
+                        </h1>
+                    </div>
+                    <div class="swiper-container testimonials-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonials-text">
+                                    Very nice people. Enjoy working with them. Everyone on the team is helpful and
+                                    pleasant.
+                                    Kay
+                                    was very helpful.
+                                    <span class="uppercase">
+                                        Michael Kidd
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonials-text">
+                                    Very nice people. Enjoy working with them. Everyone on the team is helpful and
+                                    pleasant.
+                                    Kay
+                                    was very helpful.
+                                    <span class="uppercase">
+                                        Michael Kidd
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+                            <div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+                        </div>
+                        <div class="swiper-pagination d-lg-none d-block"></div>
+                    </div>
+
+                    <div class="multi-button center">
+                        <a href="javascript:;" class="button button-solid white-bg">
+                            VIEW ALL <i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                        <a href="javascript:;" class="uppercase button button-green">
+                            SUBMIT REVIEW
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <div class="footer-left"> 
+                        <div class="logo text-lg-left text-center">
+                            <img class="img-fluid" src="assets/img/logo.png">
+                        </div>
+                        <p class="text-lg-left text-center">
+                            Proud to be one of the top 100 dealers in North America, representing the best names in
+                            boating.
+                        </p>
+                        <ul class="text-lg-left text-center">
+                            <li class="uppercase"> 
+                                <a href="javascript:;">
+                                    <i class="fas fa-caret-right"></i> BUSINESS HOURS
+                                </a>
+                            </li>
+                            <li class="uppercase">
+                                <a href="javascript:;">
+                                    <i class="fas fa-caret-right"></i> OUR LOCATIONS
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 d-lg-block d-none">
+                    <div class="footer-center">
+                        <div class="row">
+                            <div class="col-4">
+                                <h4 class="uppercase">
+                                    <a href="javascript:;">OUR BRANDS</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="uppercase">
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="uppercase">
+                                    <a href="javascript:;">OUR BRANDS</a>
+                                </h4>
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-angle-right"></i> NauticStar Boats
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <div class="footer-right">
+                        <h4 class="uppercase">
+                            SUBSCRIBE NEWSLETTER
+                        </h4>
+                        <input type="text" placeholder="Enter Your Email Address" />
+                        <button type="submit">
+                            <i class="far fa-envelope"></i>
+                        </button>
+                        <span class="form-text">
+                            We do not share your email with others.
+                        </span>
+                        <div class="follow uppercase d-lg-block d-none">
+                            <a href="javascript:;">
+                                FOLLOW US ON <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-md-left text-center ">
+                        © 2020 Grand Pointe Marina. All rights reserved.
+                    </div>
+                    <div class="col-md-6 col-12 text-md-right text-center mt-md-0 mt-2">
+                        crafted in Cambridge by fuelmedia inc.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="side-panel">
+        <div class="side-panel-in">
+            <div class="side-panel-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="side-panel-search">
+                <i class="fas fa-search"></i>
+            </div>
+            <ul class="mobile-main-menu">
+                <li class="active">
+                    <a href="javascript:;">Home</a>
+                </li>
+                <li>
+                    <a href="javascript:;">About</a>
+                </li>
+                <li>
+                    <a href="javascript:;">Inventory</a>
+                </li>
+                <li>
+                    <a href="javascript:;">Services</a>
+                </li>
+                <li>
+                    <a href="javascript:;">Contact</a>
+                </li>
+            </ul>
+            <ul class="footer-menu">
+                <li>
+                    <a href="javascript:;">Our Brands</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="javascript:;">Sub Menu</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Sub Menu</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;">Discover Boats</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="javascript:;">Sub Menu</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">Sub Menu</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>
+                LOCATIONS
+            </h2>
+            <div class="locations-menu-item">
+                <div class="locations-menu uppercase readMore">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. officia nostrum accusamus placeat, maiores
+                </div>
+            </div>
+            <div class="locations-menu-item">
+                <div class="locations-menu uppercase readMore">
+                    repudiandae voluptatem natus cum vel dicta dolorem dolore? Reiciendis, voluptates.
+                </div>
+            </div>
+            <div class="locations-menu-item">
+                <div class="locations-menu uppercase readMore">
+                    Eaque illum soluta voluptatum odit quaerat ad
+                </div>
+            </div>
+            <h2>
+                EMAIL
+            </h2>
+            <a class="menu-mail" href="mailto:email@grandpointemarina.com">Send Email</a>
+            <div class="clearfix"></div>
+            <a href="javascript:;" class="uppercase button button-green button-center d-lg-none d-inline-block">
+               contact us
+            </a>
+            <a href="javascript" class="mobile-menu-social">
+                Follow us on <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+    </div>
+    <script src="assets/public/js/iq-min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
